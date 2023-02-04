@@ -1,18 +1,24 @@
-.col {
+.box {
     height: 500px;
     width: 100px;
     border: solid white; 
     border-radius: 30px;
+    color: transparent;
+    padding: 20px;
+}
+.box:hover {
+    color: white;
 }
 body {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-   
 }
-input {
-     width: 80px;
-    height: 80px;
-    background-color: white;
-  
+
+button {
+    height: 60px;
+    width: 140px;
+    border: none;
+    border-radius: 20px;
 }
+
