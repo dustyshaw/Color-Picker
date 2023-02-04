@@ -2,7 +2,7 @@
     height: 500px;
     width: 100px;
     border: solid white; 
-    border-radius: 30px;
+    border-radius: 0;
     color: transparent;
     padding: 20px;
 }
@@ -10,7 +10,7 @@
     color: white;
 }
 body {
-    width: 800px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -18,7 +18,9 @@ body {
 button {
     height: 60px;
     width: 140px;
-    border: none;
+    border: white solid;
     border-radius: 20px;
+    background-color: transparent;
+    color: white;
 }
 
