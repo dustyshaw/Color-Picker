@@ -4,7 +4,7 @@ This project was created for developers to help chose the best colors for a proj
 All colors can be copied to the clipboard quickly.  Color combos can be saved before generating a new color template.
 
 ## Stuff Used
-- HTML
+- HTML 
 - CSS
 - Javascript
 - BootStrap

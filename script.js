@@ -15,7 +15,7 @@ base.addEventListener("change", function() {
     var rComp = 255 - r;
     var gComp = 255 - g;
     var bComp = 255 - b;
-    color2.style.backgroundColor=`rgb(${r*.5},${g*.5},${b*.5},)`
+    color2.style.backgroundColor=`rgb(${r*.5},${g*.5},${b*.5},)`;
     color5.style.backgroundColor=`rgb(${rComp}, ${gComp}, ${bComp})`;
     color4.style.backgroundColor=`rgb(${rComp*1.5}, ${gComp*1.5}, ${bComp*1.5})`;
 });
