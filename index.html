@@ -12,21 +12,34 @@
 </head>
 
 <body>
+    <br />
+    <br />
+    <br />
     <h1>Choose color scheme</h1>
-    <input type="radio" value="complimentary" class="radio">
-    <label for="complimentary">Complimentary</label>
-    <input type="radio" value="tirt" class="radio">
-    <label for="tirt">tirtiary</label>
-    <h1>Choose a base color: </h1>
+    <form>
+        <input type="radio" value="complimentary"  name="scheme">
+        <label for="complimentary">Complimentary</label>
+        <input type="radio" value="tirt" name="scheme">
+        <label for="tirt">tirtiary</label>
+        <input type="radio" value="monochromatic" name="scheme">
+        <label for="monochromatic">monochromatic</label>
+    </form>
+    <br />
+    <br />
+    <br />
+    <h1 class="mb-4">Choose a base color: </h1>
     <div class="row mb-5">
         <div class="col">
-            <h3>Use Color Picker</h3><input type="color" id="base">
+            <h3>Use Color Picker</h3>
+            <input type="color" id="base">
         </div>
-        <div class="col">
+        <!-- <div class="col">
             <h3>Input a value</h3>
-        </div>
+            <input type="text">
+        </div> -->
         <div class="col">
             <h3>Generate a random color</h3>
+            <button class="btn btn-primary" id="randomBtn">Random Color</button>
         </div>
     </div>
     <div class="row">
@@ -35,14 +48,76 @@
         <div id="color3" class="col box"></div>
         <div id="color4" class="col box"></div>
         <div id="color5" class="col box"></div>
+        <div id="color6" class="col box"></div>
+        <div id="color7" class="col box"></div>
     </div>
-    <div class="my-5 gradient align-middle" style=" width: 100vw; background-color: black; height: 400px; position: absolute; left: 0;">
+
+    <div class="">
+        <h5>Copy Code Snippet</h5>
+        <div id="codeSnippet" style="background-color: lightgray; border-radius: 10px; height: 40px; "></div>
+    </div>
+    <div class="my-5 gradient align-middle">
         <p style="color: white;">This might be some text on a cool looking background</p>
-        <button>Click Me</button>
+
+        <p>
+            Color theory is the study of how colors interact and how they can be combined in various ways to create
+            aesthetically pleasing and visually impactful compositions. It provides a systematic framework for artists,
+            designers, and anyone working with colors to make informed decisions about color choices and combinations.
+        </p>
+
+        <p> At its core, color theory is built upon the color wheel, a circular representation of the primary,
+            secondary, and tertiary colors. The primary colors—red, blue, and yellow—are fundamental hues that cannot be
+            created by mixing other colors together. Secondary colors—green, orange, and purple—are obtained by mixing
+            two primary colors in equal proportions. Tertiary colors are the result of mixing a primary color with a
+            neighboring secondary color.</p>
+
+        <h2>Color theory delves into several key concepts:</h2>
+
+        <h5>1. Color Harmony:</h5>
+        <p>Color harmony refers to the arrangement of colors in a way that is visually pleasing.
+            Different color combinations can evoke varying emotions and moods. Complementary colors, situated opposite
+            each other on the color wheel (e.g., red and green), create a high-contrast, vibrant effect. Analogous
+            colors, which are adjacent to each other (e.g., blue and green), provide a more harmonious and soothing
+            appearance.</p>
+
+        <h5>2. Color Schemes:</h5>
+        <p>Color schemes are predefined combinations of colors that work well together. Some
+            common color schemes include monochromatic (variations of a single color), analogous (adjacent colors),
+            triadic (three equidistant colors on the color wheel), and split-complementary (a base color with two
+            adjacent to its complementary).</p>
+
+        <h5>3. Color Value:</h5>
+        <p>Value refers to the lightness or darkness of a color. Adding black to a color results in
+            a darker shade, while adding white creates a lighter tint. Manipulating value can add depth and dimension to
+            an artwork or design.</p>
+
+        <h5>4. Color Temperature:</h5>
+        <p>Colors are often described as warm or cool. Warm colors like red, orange, and
+            yellow evoke feelings of energy and warmth, while cool colors like blue, green, and purple create a sense of
+            calmness and tranquility. Understanding color temperature can be crucial for conveying specific emotions.
+        </p>
+
+        <h5>5. Color Context:</h5>
+        <p>The way we perceive a color can be influenced by the colors surrounding it. The same
+            color can appear different when placed against contrasting backgrounds. This phenomenon is known as
+            simultaneous contrast and is an essential consideration in color composition.</p>
+
+        <h5>6. Psychological Impact:</h5>
+        <p>Different colors can evoke psychological responses. For example, red might
+            symbolize passion or danger, while blue might evoke feelings of trust and stability. These associations can
+            vary across cultures, but understanding the psychological impact of colors can enhance communication through
+            visuals.</p>
+
+        <p>By applying the principles of color theory, artists and designers can create visually appealing and
+            effective compositions that communicate their intended messages and emotions. Whether it's painting, graphic
+            design, interior decorating, or any other creative endeavor involving colors, a solid grasp of color theory
+            is invaluable in achieving compelling and impactful results.</p>
+        <button class="btn btn-primary">Click Me</button>
     </div>
     <script src="script.js"></script>
 </body>
 
-        
+
 </div>
+
 </html>

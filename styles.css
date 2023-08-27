@@ -5,9 +5,12 @@
     border-radius: 0;
     color: transparent;
     padding: 20px;
+    background-color: gray;
+    font-size: small;
 }
 .box:hover {
     color: white;
+    text-shadow: 0px 0px 3px black;
 }
 body {
     width: 900px;
@@ -15,12 +18,13 @@ body {
     margin-right: auto;
 }
 
-button {
+/* button {
     height: 60px;
     width: 140px;
     border: white solid;
     border-radius: 20px;
     background-color: transparent;
     color: white;
-}
+} */
+
 
